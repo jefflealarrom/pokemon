@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", function () {
   setTimeout(function () {
     document.getElementById("loadingImage").style.display = "none";
     document.querySelector(".web").style.display = "block"; //
-  }, 10000);
+  }, 20000);
 });
 
 const pokedexSection = document.querySelector("#pokedex");
