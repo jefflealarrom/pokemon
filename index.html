@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="Imagenes/pokemonLogo.png">
+    <title>Pokédex</title>
+</head>
+
+<body>
+    
+    <img src="Imagenes/pokemon4.gif" alt="Loading..." class="loading-image" id="loadingImage">
+
+    <main class="web">
+          <section class="logo">
+            <img src="Imagenes/pokemonLogo.png" alt="logo-de-pokemon">
+        </section>
+
+        <section id="searchBar">
+
+            <article class="favorites" id="favoritesSection">
+                <div id="favoritesButton">
+                    <div id="favoritesButtonInside"></div>
+                </div>
+            </article>
+
+            <form id="searchForm">
+                <label for="searchInput"></label>
+                <input type="text" id="searchInput" name="searchInput" placeholder="Find Them">
+            </form>
+
+        </section>
+
+        <section id="typeList"></section>
+        <section id="pokedex"></section>
+        <section id="favorites" ></section>
+
+ 
+    <script src="pokedex.js"></script>
+</main>
+<footer>
+    <p>Hecho por Jeff</p>
+</footer>
+</body>
+
+</html>
